@@ -1,0 +1,273 @@
+body {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  font-family: "Oswald", sans-serif;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  color: black;
+  height: 1px;
+}
+
+#nav {
+  width: 20%;
+  height: 100vh;
+  border-right: black solid 1px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
+#navinfo {
+  width: 100%;
+  height: 40vh;
+  border-bottom: black solid 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#info-photo {
+  width: 150px;
+  height: 150px;
+  border: solid black 0.5px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+#info-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+}
+
+#name {
+  font-size: 3rem;
+}
+
+#function {
+  font-size: 1.5rem;
+}
+
+.navbutton {
+  width: 100%;
+  height: 10vh;
+  border-bottom: black solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button-icon {
+  height: 80%;
+}
+
+.button-ico {
+  width: 20%;
+  height: 80%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#About-icon {
+  background-image: url("Images/About-me.png");
+}
+
+#Professional-icon {
+  background-image: url("Images/Professional.png");
+}
+
+#Education-icon {
+  background-image: url("Images/Education.png");
+}
+
+#Skills-icon {
+  background-image: url("Images/Skills.png");
+}
+
+#Projects-icon {
+  background-image: url("Images/Projects.png");
+}
+
+#Contact-icon {
+  background-image: url("Images/Contact.png");
+}
+
+.button-text {
+  font-family: "Oswald", sans-serif;
+}
+
+#screen {
+  position: absolute;
+  width: 80%;
+  left: 20%;
+  background-color: #f5f5f5;
+  background-image: url("https://www.transparenttextures.com/patterns/first-aid-kit.png");
+}
+
+#home-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+#home-title {
+  font-size: 20rem;
+}
+
+#home-subtitle {
+  font-size: 7rem;
+}
+
+#about-section {
+  width: 100%;
+}
+
+.section-title {
+  width: 100%;
+  height: 5rem;
+  background-color: red;
+}
+
+.separator-text {
+  font-size: 3rem;
+  height: 100%;
+  margin-left: 5%;
+}
+
+#professional-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#professional-content {
+  width: 60%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+hr {
+  color: black;
+}
+
+#professional-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-text {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 2rem;
+}
+
+.job-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20%;
+}
+
+#Exide-Image {
+  background-image: url("Images/Exide.png");
+}
+
+#skills-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skills-content {
+  width: 80%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.skills {
+  display: grid;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.it-skill {
+  width: 100px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-image {
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#HTML-logo {
+  background-image: url("Images/HTML.png");
+}
+
+#CSS-logo {
+  background-image: url("Images/CSS.svg");
+}
+
+#Javascript-logo {
+  background-image: url("Images/Javascript.png");
+}
+
+#Jquery-logo {
+  background-image: url("Images/JQuery.png");
+}
+
+#Bootstrap-logo {
+  background-image: url("Images/Bootstrap.png");
+}
+
+#SASS-logo {
+  background-image: url("Images/SASS.png");
+}
+
+#Mocha-logo {
+  background-image: url("Images/Mocha.png");
+}
+
+#Github-logo {
+  background-image: url("Images/Github.png");
+}
