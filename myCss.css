@@ -17,10 +17,11 @@ hr {
 #nav {
   width: 20%;
   height: 100vh;
-  border-right: black solid 1px;
   display: flex;
   flex-direction: column;
   position: fixed;
+  box-shadow:  2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  z-index: 1;
 }
 
 #navinfo {
@@ -63,6 +64,13 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.navbutton:hover {
+  background-color: rgb(153, 152, 152);
+  background-image: url("https://www.transparenttextures.com/patterns/first-aid-kit.png");
 }
 
 .button-icon {
@@ -270,4 +278,24 @@ hr {
 
 #Github-logo {
   background-image: url("Images/Github.png");
+}
+
+#photoshop-logo {
+  background-image: url('Images/photoshop.png');
+}
+
+#excel-logo {
+  background-image: url('Images/excel.png');
+}
+
+#word-logo {
+  background-image: url('Images/word.png');
+}
+
+#powerpoint-logo {
+  background-image: url('Images/powerpoint.png');
+}
+
+#project-logo {
+  background-image: url('Images/Project.png');
 }
